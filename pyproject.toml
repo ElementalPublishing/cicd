@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "yourproject"
-version = "0.1.0"
-description = "A simple Python project with CI/CD"
-authors = ["Your Name <you@example.com>"]
+name = "cicd"
+version = "1.0.0"
+description = "Continuous project with CI/CD starting with hello world"
+authors = ["houser2388@gmail.com"]
 
 [tool.poetry.dependencies]
 python = "^3.12"
