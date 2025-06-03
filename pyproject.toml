@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "yourproject"
+version = "0.1.0"
+description = "A simple Python project with CI/CD"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.dev-dependencies]
+pytest = "^8.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
